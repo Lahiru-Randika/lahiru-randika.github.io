@@ -2,7 +2,7 @@
 
 Welcome to my portfolio website! This project showcases my skills, experience, and projects as an undergraduate. It was built using **Create React App** and deployed on **GitHub Pages**.
 
-![Portfolio Screenshot]([link-to-your-screenshot-image](https://github.com/Lahiru-Randika/lahiru-randika.github.io/blob/main/src/images/localhost_4000_.png))
+![Portfolio Screenshot]([link-to-your-screenshot-image](https://github.com/Lahiru-Randika/lahiru-randika.github.io/blob/main/src/images/localhost_4000_.png)
 
 ## 🚀 Live Demo
 
