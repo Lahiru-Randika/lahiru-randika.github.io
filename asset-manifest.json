@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.21dc4659.css",
-    "main.js": "/static/js/main.7b2740e9.js",
+    "main.css": "/static/css/main.9e2a9de2.css",
+    "main.js": "/static/js/main.2ec0f83f.js",
     "static/media/lahirunew.jpg": "/static/media/lahirunew.b6a480b0f59234a37f2f.jpg",
+    "static/media/certificate05.png": "/static/media/certificate05.9b0cf34b80bb01d68573.png",
     "static/media/shopily.jpeg": "/static/media/shopily.9b08443f91c9bfaaf25a.jpeg",
     "static/media/certificate03.png": "/static/media/certificate03.32d62d6cffdc83751f4a.png",
     "static/media/nanoprocessor.jpg": "/static/media/nanoprocessor.51e4f9b6cba197260504.jpg",
@@ -15,11 +16,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.21dc4659.css.map": "/static/css/main.21dc4659.css.map",
-    "main.7b2740e9.js.map": "/static/js/main.7b2740e9.js.map"
+    "main.9e2a9de2.css.map": "/static/css/main.9e2a9de2.css.map",
+    "main.2ec0f83f.js.map": "/static/js/main.2ec0f83f.js.map"
   },
   "entrypoints": [
-    "static/css/main.21dc4659.css",
-    "static/js/main.7b2740e9.js"
+    "static/css/main.9e2a9de2.css",
+    "static/js/main.2ec0f83f.js"
   ]
 }
