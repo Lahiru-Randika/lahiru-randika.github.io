@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.9e2a9de2.css",
-    "main.js": "/static/js/main.c6e515f5.js",
+    "main.js": "/static/js/main.8ac9c219.js",
     "static/media/lahirunew.jpg": "/static/media/lahirunew.b6a480b0f59234a37f2f.jpg",
     "static/media/certificate05.png": "/static/media/certificate05.9b0cf34b80bb01d68573.png",
     "static/media/shopily.jpeg": "/static/media/shopily.9b08443f91c9bfaaf25a.jpeg",
+    "static/media/cahtapp.jpg": "/static/media/cahtapp.ba59ccb8ed2d6cae7f67.jpg",
     "static/media/certificate03.png": "/static/media/certificate03.32d62d6cffdc83751f4a.png",
     "static/media/nanoprocessor.jpg": "/static/media/nanoprocessor.51e4f9b6cba197260504.jpg",
+    "static/media/certificate06.png": "/static/media/certificate06.2045d00d6bb14a2ee05c.png",
     "static/media/certificate02.png": "/static/media/certificate02.d5a75e73f53f640186cd.png",
     "static/media/certificate01.png": "/static/media/certificate01.6809d3f7779aa72d098b.png",
     "static/media/certificate04.png": "/static/media/certificate04.0e6f30da9c0a3217fcf6.png",
@@ -18,10 +20,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.9e2a9de2.css.map": "/static/css/main.9e2a9de2.css.map",
-    "main.c6e515f5.js.map": "/static/js/main.c6e515f5.js.map"
+    "main.8ac9c219.js.map": "/static/js/main.8ac9c219.js.map"
   },
   "entrypoints": [
     "static/css/main.9e2a9de2.css",
-    "static/js/main.c6e515f5.js"
+    "static/js/main.8ac9c219.js"
   ]
 }
