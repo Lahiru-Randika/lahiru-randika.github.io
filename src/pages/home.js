@@ -1,7 +1,15 @@
 import { Link } from "react-router-dom";
 import img1 from "../images/lahirunew.jpg"
+import { useEffect } from "react";
+import Experience from "../components/experience.js"
 
 const Home = ()=>{
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
+      
     return(
         <div className="home">
             <div className="container">
@@ -18,10 +26,10 @@ const Home = ()=>{
                         </div>
                         <div className="buttons d-flex align-items-center justify-content-center pb-4">
                             <Link to="/contactme"><button className="btn btn-round"><p className="hash">#</p>Contact Me</button></Link>
-                            <a href="Lahiru-Randika-CV.pdf" download="Lahiru-Randika-CV.pdf"><button className="btn btn-round"><p className="hash">#</p>Download CV</button></a>
+                            <a href="Lahiru-Randika-CV-New.pdf" download="Lahiru-Randika-CV.pdf"><button className="btn btn-round"><p className="hash">#</p>Download CV</button></a>
                         </div>
                         <div className="quote-box">
-                            <p className="quote">``Great power comes with a great electricity bill``</p>
+                            <p className="quote">``Building systems is easy, Building them right is the challenge``</p>
                             <p className="quote quote-by">~ mr Nobody</p>
                         </div>
                     </div>
@@ -31,6 +39,9 @@ const Home = ()=>{
                                 <img src={img1}/>
                             </div>
                         </div>
+                    </div>
+                    <div className="experience-section w-100 mt-10">
+                        <Experience />
                     </div>
                 </div>
             </div>

@@ -227,7 +227,7 @@
 .home .left-section .quote-by{
     position: absolute;
     top:46px;
-    left: 367px;
+    left: 435px;
     margin-top: 0;
     width: 35%;
 }
@@ -1027,6 +1027,10 @@
     .projects .section .slider .sliderSet{
         height: 700px;
     }
+    .aboutme .section .subsec .image {
+        padding: 25px;
+        margin-left: 10px;
+    }
 }
 @media (max-width: 768px) {
     .direction .part-2{
@@ -1115,10 +1119,10 @@
     .aboutme .section .subsec .info .education ul li .arrow .arrow-pointing{
         left: 10px;
     }
-    .aboutme .section .subsec .image{
+    .aboutme .section .subsec .image {
         margin-top: 50px;
-        padding-top: 80px;
         height: 200px;
+        padding: 25px;
     }
     .aboutme .skills .set-1 .card .intro.long{
         padding-top: 80px;
@@ -1270,12 +1274,14 @@
     .home .container .row .right-section{
         height:300px;
         width: 85%;
+        background-color: transparent;
     }
     .home .right-section .contain img{
         padding-top:0;
         height: 100%;
         width: 120%;
         object-fit: cover;
+        border: 5px solid black;
     }
     .home .left-section .quote-by{
         top:36px;
@@ -1390,6 +1396,9 @@
         position: relative;
         left: 0px;
     }
+    .home .right-section .contain img{
+        scale: calc(1.2);
+    }
     .projects .section h1{
         font-size: 40px;
     }
@@ -1479,6 +1488,10 @@
     .direction .part-2 .icon{
         display: none;
     }
+    .direction{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
     .home .container .row .left-section .name{
         font-size: 40px;
     }
@@ -1505,18 +1518,109 @@
         height: 150px;
     }
     .projects .section.certificates .cards .set-2{
-        height: 360px;
+        height: 800px;
         margin-bottom: 40px;
+        margin-top: 40px;
     }
 }
-@media (max-width: 430px ){
+@media (max-width: 524px ){
+    .home .left-section .quote-by{
+        position: absolute;
+        top:55px;
+        left: 180px;
+    }
+}
+@media (max-width: 439px ){
+    .home .left-section{
+        display :flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .home .left-section .quote-by{
         position: absolute;
         top:55px;
         left: 200px;
     }
+    .home .quote-by{
+        display: none;
+    }
+    .footer{
+        height: 200px;
+        background-color: var(--dark-color);
+    }
+    .footer .footer-container h4{
+        padding:0;
+        position: relative;
+        right: 10px;
+    }
+    .footer .footer-container p{
+        font-size: 10px;
+        padding:0;
+        position: relative;
+        right: 10px;
+    }
 }
 @media (max-width: 412px ){
+    .home .greeting{
+        font-size: 15px !important;
+    }
+    .home .name{
+        font-size: 30px !important;
+    }
+    .home .intro h2{
+        font-size: 18px !important;
+    }
+    .home .buttons{
+        padding-bottom: 0!important;
+    }
+    .home .quote{
+        margin-bottom: 0!important;
+    }
+    .home .buttons a .btn-round{
+        font-size: 11px;
+    }
+    .home .right-section .contain{
+        position: relative;
+        right:15px;
+        align-items: center;
+        scale: calc(0.7);
+    }
+    .experience .exp-card .exp-list{
+        font-size: 0.6rem;
+    }
+    .experience .exp-card .exp-tech{
+        font-size: 0.6rem;
+    }
+    .projects .section .slider{
+        margin-bottom: 0;
+        padding-bottom: 0px;
+        height: 670px;
+    }
+    .projects .section .slider .sliderSet{
+        padding:0;
+        height: 550px;
+    }
+    .projects .section .slider .sliderSet img{
+        display: none;
+    }
+    .projects .section.certificates{
+        padding-top: 0;
+    }
+    .prev-arrow-icon, .next-arrow-icon {
+        font-size: 40px;
+        position: relative;
+        top: 255px;
+    }
+    .prev-arrow-icon{
+        left: 140px;
+    }
+    .next-arrow-icon{
+        right: 140px;
+    }
+    .slider .slick-dots li button::before {
+        font-size: 0px;
+    }
     .aboutme .section .subsec .info .education ul li .arrow{
         left: 200px;
     }
@@ -1530,14 +1634,16 @@
         top:10px;
         left: -60px;
     }
+    .footer{
+        background-color: var(--dark-color);
+        border-top: 2px double var(--main-text-color);
+        height: 250px;
+    }
     .footer .footer-container{
-        height: 230px;
-    }
-    .footer .footer-container h4{
-        font-size: 18px;
-    }
-    .footer .footer-container p{
-        font-size: 11px;
+        border-top: none;
+        height: 190px;
+        position: relative;
+        right: 10px;
     }
     .footer .footer-container .final-links .icons a{
         padding-right: 20px;
@@ -1547,4 +1653,124 @@
     }
 }
 
-  
+
+/* ===========================
+   EXPERIENCE TIMELINE (SAFE)
+   =========================== */
+
+.experience {
+  position: relative;
+  margin-top: 40px;
+}
+
+.experience-timeline {
+  position: relative;
+  padding-left: 10px;
+}
+
+.experience-timeline::before {
+  content: "";
+  position: absolute;
+  left: 18px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    #d946ef,
+    rgba(217, 70, 239, 0.2)
+  );
+}
+
+.exp-item {
+  position: relative;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.exp-year {
+  position: relative;
+  text-align: right;
+  font-weight: bold;
+  color: #d946ef;
+  padding-right: 20px;
+}
+
+.exp-year::after {
+  content: "";
+  position: absolute;
+  right: -9px;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  background: #d946ef;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(217, 70, 239, 0.6);
+}
+
+.exp-card {
+  background: #1f2933;
+  padding: 20px 22px;
+  border-radius: 6px;
+  border-left: 3px solid #d946ef;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.exp-card:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 15px rgba(217, 70, 239, 0.6));
+}
+
+.exp-card h5 {
+  font-family: var(--main-font);
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.exp-card h6 {
+  color: #9ca3af;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.exp-card .exp-list{
+  font-family: var(--main-font);
+  font-size: 0.9rem;
+}
+.exp-card p {
+  color: #cbd5e1;
+  line-height: 1.6;
+  margin-bottom: 6px;
+}
+
+.exp-tech {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+.exp-tech .tech-stack {
+  font-family: var(--main-font);
+  color: pink;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .experience-timeline::before {
+    left: 8px;
+  }
+
+  .exp-year {
+    text-align: left;
+    padding-left: 25px;
+    margin-bottom: 6px;
+  }
+
+  .exp-year::after {
+    left: 0;
+    right: auto;
+  }
+}

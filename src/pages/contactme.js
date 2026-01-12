@@ -3,8 +3,15 @@ import { FaSquarePhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FaGithubSquare } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io5";
+import { useEffect } from "react";
 
 const ContactMe = ()=>{
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
+      
     return(
         <div className="contactme projects">
             <div className="container">

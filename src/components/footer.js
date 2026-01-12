@@ -14,15 +14,15 @@ const Footer =() =>{
                 <div className="final-links">
                     <p>lahiru.21@cse.mrt.ac.lk</p>
                     <p>Computer Science Engineering (UG)</p>
-                    <p>Forcusing Cyber Security</p>
+                    <p>Focusing Cyber Security</p>
                     <div className="icons">
-                        <Link to="#">
+                        <Link to="https://github.com/Lahiru-Randika/">
                             <FaGithub  className="icon"/>
                         </Link>
-                        <Link to="#">
+                        <Link to="https://www.linkedin.com/in/lahiru-randika-m/">
                             <FaLinkedin className="icon"/>
                         </Link>
-                        <Link to="#">
+                        <Link to="mailto:lahiru.21@cse.mrt.ac.lk?subject=Hello%20Lahiru&body=Write%20your%20message%20here">
                             <MdMarkEmailUnread className="icon"/>
                         </Link>
                     </div>

@@ -6,13 +6,23 @@ import Slider from "react-slick";
 import { MdOutlineAdsClick } from "react-icons/md";
 import ScrollReveal from 'scrollreveal';
 
+import img0 from "../images/cahtapp.jpg";
 import img1 from "../images/shopily.jpeg";
 import img2 from "../images/nanoprocessor.jpg";
 import img3 from "../images/os.jpeg";
+import img9 from "../images/keylogger.webp";
+
 import img4 from "../images/certificate01.png";
 import img5 from "../images/certificate02.png";
 import img6 from "../images/certificate03.png";
 import img7 from "../images/certificate04.png";
+import img8 from "../images/certificate05.png";
+import img10 from "../images/certificate06.png";
+
+import img11 from "../images/aurora1.jpg";
+import img12 from "../images/Kubrid.jpg";
+import img13 from "../images/pandora1.jpg";
+
 
 import { IoIosArrowRoundBack } from "react-icons/io";
 import { IoIosArrowRoundForward } from "react-icons/io";
@@ -54,6 +64,11 @@ const Projects = ()=>{
         });
     }, []);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+      
+
     return(
         <div className="projects">
             <div className="container">
@@ -65,6 +80,63 @@ const Projects = ()=>{
                     <div className="slider">
                         <Slider {...settings_for_projects}>
                             <div className="d-flex sliderSet">
+                                <img src={img12}/>
+                                <div className="description">
+                                    <h5>#Kubrid</h5>
+                                    <span>
+                                    <b>Resource Utilization with Hybri Pod Scaling | Kubernetes (Final Year Project)</b><br/><br/>
+                                    Developing Kubrid, an intelligent Kubernetes autoscaling framework designed for cloud-native microservices. The project integrates 
+                                    predictive horizontal scaling with in-place vertical scaling to improve resource utilization while maintaining application performance. 
+                                    A MAPE-K–based control loop is implemented using time-series forecasting, and the system is evaluated through real-world workload 
+                                    simulations and Prometheus-based monitoring metrics.<br/>
+                                    (Still under constuctions..)<br/>
+                                        <a href="#"><button className="btn-round">No Link yet ~~~ </button></a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div className="d-flex sliderSet">
+                                <img src={img11}/>
+                                <div className="description">
+                                    <h5>#Aurora</h5>
+                                    <span>
+                                    Contributed to the development of a full-stack salon booking system by building frontend features, 
+                                    backend microservices, and deployment workflows. Designed and managed CI/CD automation using GitHub Actions 
+                                    to streamline continuous integration and delivery, while working with Docker and Kubernetes for containerized 
+                                    deployments and system orchestration. Gained hands-on experience in log management, cloud infrastructure, 
+                                    and secure deployment practices using AWS and zero-trust principles.<br/>
+                                    Used Tech : Next.js , FastAPI , GitHub actions , ArgoCd , Docker , Kubernetes , ZeroTrust , AWS 
+                                        <a href="https://github.com/orgs/WSO2-G02/repositories"><button className="btn-round">Open the project in GitHub ~~~ </button></a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div className="d-flex sliderSet">
+                                <img src={img13}/>
+                                <div className="description">
+                                    <h5>#Pandora Project</h5>
+                                    <span>
+                                    An individual cybersecurity-focused project conducted in collaboration with TechCERT, aimed at building practical understanding of security principles 
+                                    and industry frameworks. <br/>The project involved bi-weekly tasks centered on research, threat analysis, and technical reporting, providing 
+                                    hands-on exposure to real-world cybersecurity practices and structured security assessments.<br/>
+                                    Used Tech : CIS Control , PHP , OAuth
+                                        <a href="https://github.com/Lahiru-Randika/Pandora_Project"><button className="btn-round">Open the project in GitHub ~~~ </button></a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div className="d-flex sliderSet">
+                                <img src={img0}/>
+                                <div className="description">
+                                    <h5>#Chattie</h5>
+                                    <span>
+                                    This is a full-stack real-time chat application that allows users to sign up, log in, and communicate with others seamlessly. 
+                                    It includes features such as secure user authentication, real-time messaging powered by WebSocket technology, and a responsive 
+                                    design that ensures a smooth user experience across different devices. The application is built with a focus on scalability, performance, 
+                                    and user-friendly interactions.<br/>
+                                    Used Tech : React, Express, MongoDb, Socket.io
+                                        <a href="https://github.com/Lahiru-Randika/Chat_App"><button className="btn-round">Open the project in GitHub ~~~ </button></a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div className="d-flex sliderSet">
                                 <img src={img1}/>
                                 <div className="description">
                                     <h5>#Shopily</h5>
@@ -75,6 +147,19 @@ const Projects = ()=>{
                                     products within participating stores. This seamless experience not only saves time but also ensures that you can quickly locate and obtain the items you need.<br/>
                                     (Still under constuctions..)<br/>
                                         <a href="https://github.com/Lahiru-Randika/Shopily"><button className="btn-round">Open the project in GitHub ~~~ </button></a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div className="d-flex sliderSet">
+                                <img src={img9}/>
+                                <div className="description">
+                                    <h5>#Keyloger</h5>
+                                    <span>
+                                    Developed a simple keylogger using C++ and the Windows API, designed to capture keyboard inputs on a Windows system. The application logs all keystrokes to a file (keylog.txt) 
+                                    created in the same folder as the executable, enabling users to monitor typed content. In addition to logging characters, the keylogger supports special keys like Backspace, Enter, 
+                                    Space, Shift, Tab, and Escape. It requires a Windows operating system and a C++ compiler, such as MinGW (G++), that supports the Windows AP. This project was built for educational purposes, 
+                                    with a focus on understanding system-level interactions and keyboard event handling<br/>
+                                    <a href="https://github.com/Lahiru-Randika/Keylogger-Development"><button className="btn-round">Open the project in GitHub ~~~ </button></a>
                                     </span>
                                 </div>
                             </div>
@@ -134,12 +219,12 @@ const Projects = ()=>{
                             </div>
                             <div className="card">
                                 <div className="intro">
-                                    <h2>JavaScript for Beginners</h2>
-                                    <h4><span className="hash">#</span>by Simplilearn</h4>
+                                    <h2>API Security Fundamentals</h2>
+                                    <h4><span className="hash">#</span>by APISec University</h4>
                                 </div>
-                                <img src={img6}/>
-                                <a href="https://simpli-web.app.link/e/pTM4cjIdCMb">
-                                    <button className="OpentheProject"><MdOutlineAdsClick/>Show  Credentials</button>
+                                <img src={img10}/>
+                                <a href="https://www.credly.com/badges/6ea29931-69bf-4347-9564-320fb9dd190e/public_url">
+                                    <button className="OpentheProject"><MdOutlineAdsClick/>Show Credentials</button>
                                 </a>
                             </div>
                         </div>
@@ -151,6 +236,26 @@ const Projects = ()=>{
                                 </div>
                                 <img src={img7}/>
                                 <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/mastercard/vcKAB5yYAgvemepGQ_Mastercard_ZY3L4GTK7JMcco937_1726434043570_completion_certificate.pdf">
+                                    <button className="OpentheProject"><MdOutlineAdsClick/>Show  Credentials</button>
+                                </a>
+                            </div>
+                            <div className="card">
+                                <div className="intro">
+                                    <h2>Foundations of AI Security</h2>
+                                    <h4><span className="hash">#</span>by AttackIQ</h4>
+                                </div>
+                                <img src={img8}/>
+                                <a href="https://www.credly.com/badges/65c49d99-4b3d-4c72-8bca-aaf3b30e6988">
+                                    <button className="OpentheProject"><MdOutlineAdsClick/>Show  Credentials</button>
+                                </a>
+                            </div>
+                            <div className="card">
+                                <div className="intro">
+                                    <h2>JavaScript for Beginners</h2>
+                                    <h4><span className="hash">#</span>by Simplilearn</h4>
+                                </div>
+                                <img src={img6}/>
+                                <a href="https://simpli-web.app.link/e/pTM4cjIdCMb">
                                     <button className="OpentheProject"><MdOutlineAdsClick/>Show  Credentials</button>
                                 </a>
                             </div>

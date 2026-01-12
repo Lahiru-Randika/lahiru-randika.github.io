@@ -33,6 +33,10 @@ const AboutMe = ()=>{
     });
     }, []);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+      
     return(
         <div className="aboutme projects">
             <div className="container">
@@ -166,7 +170,7 @@ const AboutMe = ()=>{
                     </div>
                 </div>
                 <div className="section certificates skills slide-in-bottom">
-                    <h1><span>Skills; </span>that I can bring onto the table</h1>
+                    <h1><span>Skills </span>I bring to the table</h1>
                     <p className="quote">~ I'm not saying I’m perfect, but my code runs on the first try... sometimes</p>
                     <div className="cards">
                         <div className="set-1 mb-5 d-flex">
@@ -199,8 +203,11 @@ const AboutMe = ()=>{
                                 <div className="intro">
                                     <h2><span className="hash">#</span>Other</h2>
                                     <ul>
+                                        <li>Linux</li>
                                         <li>WireShark</li>
                                         <li>Git</li>
+                                        <li>Docker</li>
+                                        <li>MIM tools</li>
                                         <li>Photoshop</li>
                                         <li>Canva</li>
                                     </ul>

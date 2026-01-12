@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { MdMarkEmailUnread } from "react-icons/md";
@@ -11,7 +10,7 @@ const ContactSection = () => {
     const [open, setOpen] = useState(false);
 
     const openOrnot = () => {
-        setOpen(prevOpen => !prevOpen); // Toggle the state correctly
+        setOpen(prevOpen => !prevOpen);
     }
 
     return (
@@ -26,15 +25,15 @@ const ContactSection = () => {
                 }
             </div>
             <div className={`link-pic d-flex ${open ? "show" : ""}`}>
-                <Link to="#">
+                <a href="https://github.com/Lahiru-Randika/">
                     <FaGithub className="icon" />
-                </Link>
-                <Link to="#">
+                </a>
+                <a href="https://www.linkedin.com/in/lahiru-randika-m/">
                     <FaLinkedin className="icon" />
-                </Link>
-                <Link to="#">
+                </a>
+                <a href="mailto:lahiru.21@cse.mrt.ac.lk?subject=Hello%20Lahiru&body=Write%20your%20message%20here">
                     <MdMarkEmailUnread className="icon" />
-                </Link>
+                </a>
             </div>
         </div>
     );
