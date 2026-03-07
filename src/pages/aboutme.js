@@ -185,31 +185,60 @@ const AboutMe = ()=>{
                                     </ul>
                                 </div>
                             </div>
-                            <div className="card">
-                                <div className="intro long">
-                                    <h2><span className="hash">#</span>Web Developing</h2>
+                            <div className="card web-card">
+                                <div className="intro">
+                                <h2><span className="hash">#</span>Web Developing</h2>
+
+                                <div className="web-grid">
+
+                                    <div>
+                                    <h4>Frontend</h4>
                                     <ul>
                                         <li>ReactJS</li>
-                                        <li>NodeJS</li>
-                                        <li>JavaScript</li>
+                                        <li>Angular</li>
+                                        <li>Next.js</li>
                                         <li>HTML</li>
                                         <li>CSS</li>
+                                        <li>JavaScript</li>
+                                    </ul>
+                                    </div>
+
+                                    <div>
+                                    <h4>Backend</h4>
+                                    <ul>
+                                        <li>NodeJS</li>
+                                        <li>.NET</li>
+                                        <li>Flask</li>
+                                        <li>FastAPI</li>
+                                    </ul>
+                                    </div>
+
+                                    <div>
+                                    <h4>Database</h4>
+                                    <ul>
                                         <li>MySQL</li>
+                                        <li>PostgreSQL</li>
                                         <li>MongoDB</li>
                                     </ul>
+                                    </div>
+
+                                </div>
                                 </div>
                             </div>
                             <div className="card">
                                 <div className="intro">
                                     <h2><span className="hash">#</span>Other</h2>
                                     <ul>
-                                        <li>Linux</li>
+                                        <li>Linux, Ubuntu</li>
+                                        <li>Docker</li>
+                                        <li>Kubernetes</li>
                                         <li>WireShark</li>
-                                        <li>Git</li>
+                                        <li>Git, GitHub</li>
+                                        <li>Terraform</li>
                                         <li>Docker</li>
                                         <li>MIM tools</li>
                                         <li>Photoshop</li>
-                                        <li>Canva</li>
+                                        <li>AWS</li>
                                     </ul>
                                 </div>
                             </div>

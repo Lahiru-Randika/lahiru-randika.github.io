@@ -110,6 +110,20 @@ const Projects = ()=>{
                                 </div>
                             </div>
                             <div className="d-flex sliderSet">
+                                <img src={img11}/>
+                                <div className="description">
+                                    <h5>#Secure E voting System</h5>
+                                    <span>
+                                    Developed a secure E-Voting application with a mobile app, focused on system-level security and scal
+                                    ability using a microservice-based backend.
+                                    Integrated cryptographic mechanisms, including a blind signature scheme, to ensure voter privacy and
+                                    vote integrity.<br/>
+                                    Used Tech : React, React Native, Nest.js, PostgreSQL, TypeORM 
+                                    <a href="https://github.com/orgs/WSO2-G02/repositories"><button className="btn-round">Open the project in GitHub ~~~ </button></a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div className="d-flex sliderSet">
                                 <img src={img13}/>
                                 <div className="description">
                                     <h5>#Pandora Project</h5>
